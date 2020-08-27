@@ -1,0 +1,1 @@
+"use strict";$(function(){$(window).scroll(function(){300<=$(window).scrollTop()?$("i").fadeIn():$("i").fadeOut()}),$(".goTop").click(function(){$("html").animate({scrollTop:0},600)})});

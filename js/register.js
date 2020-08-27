@@ -1,0 +1,1 @@
+"use strict";$(function(){$("#goRegister").click(function(){$.ajax({method:"post",url:"http://10.36.136.34/21cake/server/register.php",data:{username:$("#telephone").val(),password:$("#password").val()},success:function(e){1==e.code?(alert("注册成功，请前往登录"),location.href="http://10.36.136.34/21cake/login.html"):alert(e.msg)},dataType:"json"})})});
